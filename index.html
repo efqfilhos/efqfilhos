@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="E.F.Q & Filhos — venda de motorizadas. A sua mobilidade é a nossa prioridade.">
+  <title>E.F.Q & Filhos | Venda de Motorizadas</title>
+  <style>
+    :root{--red:#e50914;--black:#080808;--white:#fff;--gray:#b9b9b9}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#fff;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:var(--red);text-align:center;padding:8px 16px;font-size:.9rem;font-weight:700}
+    header{position:sticky;top:0;z-index:10;background:rgba(5,5,5,.96);border-bottom:1px solid #292929}
+    .nav{max-width:1150px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.5px}
+    .brand img{width:58px;height:58px;object-fit:cover;border-radius:50%;border:2px solid var(--red)}
+    .brand span{font-size:1.08rem}.brand small{display:block;color:#aaa;font-size:.68rem;letter-spacing:2px}
+    nav{display:flex;gap:22px;flex-wrap:wrap;font-size:.92rem;font-weight:700}
+    nav a:hover{color:var(--red)}
+    .hero{max-width:1150px;margin:auto;padding:64px 22px 70px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:36px}
+    .eyebrow{color:var(--red);font-weight:900;letter-spacing:3px;text-transform:uppercase;font-size:.82rem}
+    h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.02;margin:15px 0}
+    h1 span{color:var(--red)}
+    .hero p{color:#c8c8c8;max-width:560px;font-size:1.08rem}
+    .actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:13px 21px;border-radius:6px;font-weight:800}
+    .primary{background:var(--red);color:white}.primary:hover{background:#b90009}
+    .secondary{border:1px solid #777}.secondary:hover{border-color:var(--red);color:var(--red)}
+    .logo-panel{background:#000;border:1px solid #333;border-radius:18px;padding:12px;box-shadow:0 20px 60px #000}
+    .logo-panel img{display:block;width:100%;border-radius:10px}
+    section{padding:65px 22px}
+    .wrap{max-width:1100px;margin:auto}
+    .section-title{text-align:center;margin-bottom:35px}
+    .section-title h2{font-size:2.1rem}.section-title p{color:#aaa;margin-top:7px}
+    .redline{width:65px;height:4px;background:var(--red);margin:12px auto;border-radius:5px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#151515;border:1px solid #303030;border-radius:12px;padding:25px}
+    .card .icon{font-size:2rem;margin-bottom:12px}
+    .card h3{margin-bottom:8px}.card p{color:#aaa;font-size:.95rem}
+    .catalog{background:#111}
+    .catalog-box{max-width:760px;margin:auto;text-align:center;background:#090909;border:1px solid #333;border-radius:14px;padding:30px}
+    .catalog-box p{color:#bbb;margin:10px 0 20px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .contact-card{background:#151515;border:1px solid #333;padding:24px;border-radius:12px}
+    .contact-card strong{display:block;font-size:1.25rem;margin:5px 0}
+    .contact-card span{color:#aaa}
+    footer{border-top:1px solid #292929;text-align:center;padding:25px 18px;color:#999;font-size:.9rem}
+    footer b{color:#fff}
+    @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr;padding-top:45px}.logo-panel{max-width:460px;margin:auto}.cards{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}nav{gap:14px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">E.F.Q & FILHOS — A SUA MOBILIDADE É A NOSSA PRIORIDADE!</div>
+  <header>
+    <div class="nav">
+      <a class="brand" href="#inicio">
+        <img src="assets/logo-efq-filhos.png" alt="Logótipo E.F.Q & Filhos">
+        <span>E.F.Q & FILHOS<small>VENDA DE MOTORIZADAS</small></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#sobre">Sobre nós</a><a href="#catalogo">Motorizadas</a><a href="#contactos">Contactos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <div class="eyebrow">E.F.Q & Filhos</div>
+        <h1>Encontre a sua próxima <span>motorizada.</span></h1>
+        <p>Bem-vindo à E.F.Q & Filhos. Trabalhamos para aproximar os nossos clientes da mobilidade que procuram, com atendimento próximo e confiança em cada negócio.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contactos">Fale connosco</a>
+          <a class="btn secondary" href="#catalogo">Ver motorizadas</a>
+        </div>
+      </div>
+      <div class="logo-panel"><img src="assets/logo-efq-filhos.png" alt="E.F.Q & Filhos — Venda de Motorizadas"></div>
+    </section>
+
+    <section id="sobre">
+      <div class="wrap">
+        <div class="section-title"><h2>Porquê escolher a E.F.Q & Filhos?</h2><div class="redline"></div><p>O nosso compromisso é servir cada cliente com respeito e transparência.</p></div>
+        <div class="cards">
+          <article class="card"><div class="icon">🛡️</div><h3>Confiança</h3><p>Atendimento claro e informação sobre cada motorizada antes da compra.</p></article>
+          <article class="card"><div class="icon">🏍️</div><h3>Mobilidade</h3><p>Ajudamos a encontrar uma opção adequada às suas necessidades.</p></article>
+          <article class="card"><div class="icon">🤝</div><h3 bom="true">Bom atendimento</h3><p>Estamos disponíveis para esclarecer dúvidas e apresentar as opções.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <div class="wrap">
+        <div class="section-title"><h2>Motorizadas</h2><div class="redline"></div><p>Consulte a disponibilidade e os preços directamente com a nossa equipa.</p></div>
+        <div class="catalog-box">
+          <div style="font-size:3rem">🏍️</div>
+          <h3>Peça o catálogo actualizado</h3>
+          <p>Entre em contacto pelo WhatsApp para conhecer os modelos disponíveis, características e preços. Assim, recebe informações actualizadas directamente da E.F.Q & Filhos.</p>
+          <a class="btn primary" href="https://wa.me/244930419798?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20as%20motorizadas%20dispon%C3%ADveis." target="_blank" rel="noopener">Consultar disponibilidade</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactos">
+      <div class="wrap">
+        <div class="section-title"><h2>Fale connosco</h2><div class="redline"></div><p>Estamos prontos para atender a sua mensagem.</p></div>
+        <div class="contact-grid">
+          <div class="contact-card"><span>WhatsApp / Telefone 1</span><strong>930 419 798</strong><a class="btn primary" href="https://wa.me/244930419798" target="_blank" rel="noopener">Enviar mensagem</a></div>
+          <div class="contact-card"><span>WhatsApp / Telefone 2</span><strong>942 903 724</strong><a class="btn primary" href="https://wa.me/244942903724" target="_blank" rel="noopener">Enviar mensagem</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><b>E.F.Q & Filhos</b> · Venda de Motorizadas<br>© 2026 E.F.Q & Filhos. Todos os direitos reservados.</footer>
+</body>
+</html>
